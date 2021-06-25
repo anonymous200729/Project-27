@@ -66,6 +66,8 @@ function keyPressed(){
 		
 		Matter.Body.applyForce(bobObject1.body, bobObject1.body.position, 
 			                      {x:-50,y:-45});
+		Matter.Body.applyForce(bobObject5.body,bobObject.body.position,
+			                       {x:50,y:45})						  
 	}
 }
 
